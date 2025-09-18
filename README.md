@@ -16,7 +16,7 @@ This is an experimental project for learning C++ and practicing problem-solving 
 ## How to Use
 1. Clone the repository:
    ```bash
-   git clone <INSERT_REPOSITORY_LINK_HERE>
+   git clone https://github.com/youssefs20/learning-dsa-cpp.git
    
 2.Open the files using any C++ IDE or editor (e.g., VS Code, CLion, Visual Studio).
 
