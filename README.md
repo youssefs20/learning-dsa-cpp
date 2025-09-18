@@ -40,5 +40,5 @@ Push updates to share progress.
 
 It’s a personal repository to track growth and practice version control.
 
-Contributing
+## Contributing
 Contributions are welcome, especially from anyone who wants to collaborate and learn together.
