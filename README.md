@@ -1,6 +1,6 @@
 # C++ Learning & Practice
 
-This is an experimental project for learning C++ and practicing problem-solving in a structured way. The goal is to improve programming skills as a software engineer, explore data structures and algorithms, experiment with new C++ concepts, and learn how to use GitHub for version control and sharing.
+This is an experimental project for learning C++ and practicing problem-solving in a structured way and practicing Git & GitHub . The goal is to improve programming skills as a software engineer, explore data structures and algorithms, experiment with new C++ concepts **while improving my workflow** and learn how to use GitHub for version control and sharing.
 
 ## Project Structure
 - `DataStructures/` – Practice and experiments with different data structures (e.g., LinkedList, Stack, Queue).
