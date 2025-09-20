@@ -38,8 +38,12 @@ int peek()
 void pop()
 {
     Node* temp;
-    if (top == NULL)
+    /* if (top == NULL)
     {
+        cout << "\nStack Underflow" ;
+        exit(1);
+    } */
+    if(isEmpty()){
         cout << "\nStack Underflow" ;
         exit(1);
     }
