@@ -2,7 +2,6 @@
 #include <string.h>
 #include <ctype.h>
 
-// Function to count letters
 int count_letters(const char text[])
 {
     int letters = 0;
@@ -16,10 +15,10 @@ int count_letters(const char text[])
     return letters;
 }
 
-// Function to count words
+
 int count_words(const char text[])
 {
-    int words = 1; // words = spaces + 1
+    int words = 1; 
     for (int i = 0; text[i] != '\0'; i++)
     {
         if (isspace((unsigned char) text[i]))
@@ -30,7 +29,7 @@ int count_words(const char text[])
     return words;
 }
 
-// Function to count sentences
+
 int count_sentences(const char text[])
 {
     int sentences = 0;
@@ -44,7 +43,7 @@ int count_sentences(const char text[])
     return sentences;
 }
 
-// Manual rounding function
+
 int my_round(float num)
 {
     if (num >= 0)
@@ -55,7 +54,7 @@ int my_round(float num)
 
 int main(void)
 {
-    char text[1000]; // buffer for input
+    char text[1000]; 
 
     printf("Text: ");
     fgets(text, sizeof(text), stdin);
@@ -64,11 +63,10 @@ int main(void)
     int words = count_words(text);
     int sentences = count_sentences(text);
 
-    // Compute L and S
+
     float L = (float)letters / words * 100;
     float S = (float)sentences / words * 100;
 
-    // Coleman–Liau index
     float index = 0.0588 * L - 0.296 * S - 15.8;
     int grade = my_round(index);
 
